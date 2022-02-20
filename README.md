@@ -14,6 +14,12 @@ Users can alter the settings according to their own needs with the highly flexib
 ✔️ Check financial statistics.<br>
 ✔️ Use budget planning features to plan your budget.<br>
 
+## Used Technologies
+✔️ Java<br>
+✔️ Java FX<br>
+✔️ CSS<br>
+✔️ MySQL<br>
+
 ## Have trouble with project setup? Watch video below.
 
 [![IMAGE ALT TEXT HERE](img.png)](https://www.youtube.com/watch?v=w7sAIQ1qEw0)
