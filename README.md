@@ -21,6 +21,12 @@ Users can alter the settings according to their own needs with the highly flexib
 ✔️ CSS<br>
 ✔️ MySQL<br>
 
-## Have trouble with project setup? Watch video below.
+## Team Members
+| Lakshitha Dhyan  |    Chathura Ranasinghe    | Dasuni Udugama  |    Samitha Wijesekara    |
+| -------------    | ------------- | -------------    | ------------- |
+| <div align="center"><a href="https://github.com/Lakshitha99"><img src="https://i.postimg.cc/XYRRX18p/lakshitha.png" width="100" alt="Lakshitha Dhyana"></a></div>     | <div align="center"><a href="https://github.com/chathuralalinda"><img src="https://i.postimg.cc/SRvTGQvr/chathura.png" width="100" alt="Chathura Ranasinghe"></a></div>  | <div align="center"><a href="https://github.com/DasuniMaheshika"><img src="https://i.postimg.cc/1tJss683/dasuni.png" width="100" alt="Dasuni Udugama"></a></div>     | <div align="center"><a href="https://github.com/samithawijesekara"><img src="https://i.postimg.cc/Xv9YYh1r/samithawijesekara.png" width="100" alt="Samitha Wijesekara"></a></div>  |
+<br>
+
+## Have trouble with the project setup? You can watch the video below.
 
 [![IMAGE ALT TEXT HERE](img.png)](https://www.youtube.com/watch?v=w7sAIQ1qEw0)
