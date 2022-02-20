@@ -17,9 +17,8 @@ If ones you sign in you can go to the profile settings and change your personal 
 
 ## Team Members
 
-UWU/CST/18/011 - U.S.D.M.Kumari
-UWU/CST/18/029 - R.A.C.L.Ranasinghe
-UWU/CST/18/039 - A.L.D.Amiyangoda
-UWU/CST/18/044 - W.A.D.S.Randiva
+| Lakshitha Dhyan  |    Chathura Ranasinghe    | Dasuni Udugama  |    Samitha Wijesekara    |
+| -------------    | ------------- | -------------    | ------------- |
+| <div align="center"><a href="https://github.com/Lakshitha99"><img src="https://i.postimg.cc/XYRRX18p/lakshitha.png" width="100" alt="Lakshitha Dhyana"></a></div>     | <div align="center"><a href="https://github.com/chathuralalinda"><img src="https://i.postimg.cc/SRvTGQvr/chathura.png" width="100" alt="Chathura Ranasinghe"></a></div>  | <div align="center"><a href="https://github.com/DasuniMaheshika"><img src="https://i.postimg.cc/1tJss683/dasuni.png" width="100" alt="Dasuni Udugama"></a></div>     | <div align="center"><a href="https://github.com/samithawijesekara"><img src="https://i.postimg.cc/Xv9YYh1r/samithawijesekara.png" width="100" alt="Samitha Wijesekara"></a></div>  |
 
 Thank you.
