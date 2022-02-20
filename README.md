@@ -24,7 +24,7 @@ Users can alter the settings according to their own needs with the highly flexib
 ## Team Members
 | Lakshitha Dhyan  |    Chathura Ranasinghe    | Dasuni Udugama  |    Samitha Wijesekara    |
 | -------------    | ------------- | -------------    | ------------- |
-| <div align="center"><a href="https://github.com/Lakshitha99"><img src="https://i.postimg.cc/XYRRX18p/lakshitha.png" width="100" alt="Lakshitha Dhyana"></a></div>     | <div align="center"><a href="https://github.com/chathuralalinda"><img src="https://i.postimg.cc/SRvTGQvr/chathura.png" width="100" alt="Chathura Ranasinghe"></a></div>  | <div align="center"><a href="https://github.com/DasuniMaheshika"><img src="https://i.postimg.cc/1tJss683/dasuni.png" width="100" alt="Dasuni Udugama"></a></div>     | <div align="center"><a href="https://github.com/samithawijesekara"><img src="https://i.postimg.cc/Xv9YYh1r/samithawijesekara.png" width="100" alt="Samitha Wijesekara"></a></div>  |
+| <div align="center"><a href="https://github.com/Lakshitha99"><img src="https://i.postimg.cc/XYRRX18p/lakshitha.png" width="100" alt="Lakshitha Dhyana"></a></div>     | <div align="center"><a href="https://github.com/chathuralalinda"><img src="https://i.postimg.cc/SRvTGQvr/chathura.png" width="100" alt="Chathura Ranasinghe"></a></div>  | <div align="center"><a href="https://github.com/DasuniMaheshika"><img src="https://i.postimg.cc/1tJss683/dasuni.png" width="100" alt="Dasuni Udugama"></a></div>     | <div align="center"><a href="https://github.com/samithawijesekara"><img src="https://avatars.githubusercontent.com/u/52972807?v=4" width="100" alt="Samitha Wijesekara"></a></div>  |
 <br>
 
 ## Have trouble with the project setup? You can watch the video below.
