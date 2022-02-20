@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="moneyTreePlanner.SplashscreenController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane fx:id="splashScreen" prefHeight="560.0" prefWidth="874.0">
+         <children>
+            <ImageView fitHeight="560.0" fitWidth="875.0">
+               <image>
+                  <Image url="@../images/splashScreen.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="74.0" fitWidth="74.0" layoutX="403.0" layoutY="472.0" opacity="0.8">
+               <image>
+                  <Image url="@../images/loader.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="moneyTreePlanner.ProfileSettingsScreenController">
+    <top>
+        <AnchorPane prefHeight="150.0" prefWidth="1024.0" styleClass="bg-gradient-purple" stylesheets="@style.css" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="125.0" fitWidth="309.0" layoutX="15.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/logo.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="backToHomeBtn" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="840.0" layoutY="50.0" mnemonicParsing="false" onAction="#go_toHomeScreen" prefHeight="57.0" prefWidth="168.0" style="-fx-background-color: transparent;" text="Go back Home" textFill="#cfa8f0" AnchorPane.rightAnchor="16.0">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/home.png" />
+                            </image>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+        </AnchorPane>
+    </top>
+    <left>
+        <AnchorPane prefHeight="445.0" prefWidth="379.0" styleClass="bg-green" stylesheets="@style.css" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="43.0" layoutY="89.0" prefHeight="309.0" prefWidth="309.0" style="-fx-background-color: #fff; -fx-background-radius: 20;" AnchorPane.leftAnchor="43.0" AnchorPane.rightAnchor="27.0">
+               <children>
+                  <ImageView fitHeight="320.0" fitWidth="326.0" layoutX="-5.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/menu-btn-06.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Label layoutX="24.0" layoutY="27.0" prefHeight="32.0" prefWidth="287.0" text="MY PROFILE SETTINGS" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+    </left>
+    <right>
+        <AnchorPane prefHeight="445.0" prefWidth="769.0" styleClass="bg-green" stylesheets="@style.css" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="22.0" layoutY="66.0" prefHeight="348.0" prefWidth="579.0" style="-fx-background-color: #6a3689; -fx-background-radius: 20;" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="45.0">
+               <children>
+                  <Label layoutX="15.0" layoutY="23.0" prefHeight="32.0" prefWidth="287.0" style="-fx-font-weight: 800;" text="Edit your profile details" textFill="WHITE">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="fname" layoutX="154.0" layoutY="86.0" opacity="0.5" prefHeight="47.0" prefWidth="390.0" promptText="First Name" styleClass="text-input" />
+                  <TextField fx:id="lname" layoutX="154.0" layoutY="148.0" opacity="0.5" prefHeight="47.0" prefWidth="390.0" promptText="Last Name" styleClass="text-input" />
+                  <PasswordField fx:id="resetpass" layoutX="154.0" layoutY="210.0" opacity="0.6" prefHeight="47.0" prefWidth="390.0" promptText="Reset Password" />
+                  <Button fx:id="saveBtn" layoutX="414.0" layoutY="272.0" mnemonicParsing="false" onAction="#saveChangesBtn" prefHeight="47.0" prefWidth="133.0" styleClass="btn-orange" stylesheets="@style.css" text="Save Changes">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="15.0" layoutY="94.0" prefHeight="32.0" prefWidth="115.0" text="First Name :" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="15.0" layoutY="158.0" prefHeight="32.0" prefWidth="115.0" text="Last Name :" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="15.0" layoutY="219.0" prefHeight="32.0" prefWidth="146.0" text="Reset Password :" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children></AnchorPane>
+    </right>
+    <center>
+        <AnchorPane prefHeight="445.0" prefWidth="665.0" styleClass="bg-green" stylesheets="@style.css" BorderPane.alignment="CENTER" />
+    </center>
+    <bottom>
+        <AnchorPane prefHeight="29.0" prefWidth="1024.0" styleClass="bg-green" stylesheets="@style.css" BorderPane.alignment="CENTER" />
+    </bottom>
+</BorderPane>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="moneyTreePlanner.HomescreenController">
+    <top>
+        <AnchorPane prefHeight="150.0" prefWidth="1024.0" styleClass="bg-gradient-purple" stylesheets="@style.css" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="125.0" fitWidth="309.0" layoutX="15.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/logo.png" />
+                    </image>
+                </ImageView>
+            <Button fx:id="signOutBtn" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="887.0" layoutY="42.0" mnemonicParsing="false" onAction="#sign_out" prefHeight="91.0" prefWidth="122.0" style="-fx-background-color: transparent;" stylesheets="@style.css" text="Sign  out" textFill="#cfa8f0">
+               <graphic>
+                  <ImageView fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+            </children>
+        </AnchorPane>
+    </top>
+    <left>
+        <AnchorPane prefHeight="233.0" prefWidth="262.0" styleClass="bg-dark-green" stylesheets="@style.css" BorderPane.alignment="CENTER">
+         <children>
+                <Label layoutX="22.0" layoutY="12.0" prefHeight="73.0" prefWidth="240.0" style="-fx-font-size: 50;" styleClass="login-heading" stylesheets="@style.css" text="Welcome" />
+            <Label fx:id="welcomeName" layoutX="20.0" layoutY="56.0" prefHeight="73.0" prefWidth="240.0" styleClass="username-heading" stylesheets="@style.css" text="Dilan," />
+            <ImageView fitHeight="263.0" fitWidth="351.0" layoutX="-46.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true" styleClass="bg-green">
+               <image>
+                  <Image url="@../images/heyBuddy.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="208.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/coin.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="39.0" fitWidth="42.0" layoutX="29.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/coin.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="52.0" fitWidth="56.0" layoutX="22.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/coin.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="192.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/coin.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="64.0" layoutX="153.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/coin.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+    </left>
+    <right>
+        <AnchorPane prefHeight="445.0" prefWidth="769.0" styleClass="bg-green" stylesheets="@style.css" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane hgap="20.0" layoutX="56.0" layoutY="46.0" prefHeight="380.0" prefWidth="686.0" vgap="20.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="myIncome" alignment="CENTER" mnemonicParsing="false" onAction="#my_Income" prefHeight="50.0" prefWidth="300.0" style="-fx-background-radius: 15;" styleClass="home-menu-btn" stylesheets="@style.css" text="MY INCOME&#10;SOURSERS">
+                     <graphic>
+                        <ImageView fitHeight="79.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/menu-btn-01.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="mySavings" alignment="CENTER" mnemonicParsing="false" onAction="#my_Savings" prefHeight="107.0" prefWidth="300.0" styleClass="home-menu-btn" stylesheets="@style.css" text="MY SAVINGS&#10;ACCOUNTS" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="98.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/menu-btn-02.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="myDashboard" alignment="CENTER" mnemonicParsing="false" onAction="#my_Dashboard" prefHeight="109.0" prefWidth="300.0" styleClass="home-menu-btn" stylesheets="@style.css" text="ANALYZE&#10;DASHBOARD" GridPane.rowIndex="2">
+                     <graphic>
+                        <ImageView fitHeight="98.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/menu-btn-03.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="myOutgoing" alignment="CENTER" mnemonicParsing="false" onAction="#my_Outgoing" prefHeight="107.0" prefWidth="300.0" styleClass="home-menu-btn" stylesheets="@style.css" text="MY OUTGOING&#10;SOURSERS" GridPane.columnIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="98.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/menu-btn-04.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="myProfileSettings" alignment="CENTER" mnemonicParsing="false" onAction="#my_ProfileSettings" prefHeight="107.0" prefWidth="300.0" styleClass="home-menu-btn" stylesheets="@style.css" text="MY PROFILE &#10;SETTINGS&#10;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <graphic>
+                        <ImageView fitHeight="98.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/menu-btn-06.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="myFixedDeposits" alignment="CENTER" mnemonicParsing="false" onAction="#my_FixedDeposits" prefHeight="107.0" prefWidth="300.0" styleClass="home-menu-btn" stylesheets="@style.css" text="MY ALL FIXED &#10;DEPOSITS &#10;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="98.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/menu-btn-05.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+    </right>
+    <center>
+        <AnchorPane prefHeight="445.0" prefWidth="665.0" styleClass="bg-green" stylesheets="@style.css" BorderPane.alignment="CENTER" />
+    </center>
+    <bottom>
+        <AnchorPane prefHeight="0.0" prefWidth="1024.0" styleClass="bg-green" stylesheets="@style.css" BorderPane.alignment="CENTER" />
+    </bottom>
+</BorderPane>
