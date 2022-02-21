@@ -20,6 +20,7 @@ Users can alter the settings according to their own needs with the highly flexib
 ✔️ Java FX<br>
 ✔️ CSS<br>
 ✔️ MySQL<br>
+✔️ Scene Builder<br>
 
 ## Team Members
 | Lakshitha Dhyan  |    Chathura Ranasinghe    | Dasuni Udugama  |    Samitha Wijesekara    |
