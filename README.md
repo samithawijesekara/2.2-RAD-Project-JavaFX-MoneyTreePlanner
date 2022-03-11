@@ -15,11 +15,13 @@ Users can alter the settings according to their own needs with the highly flexib
 ✔️ Use budget planning features to plan your budget.<br>
 
 ## Used Technologies
-✔️ IntelliJ IDEA<br>
 ✔️ Java<br>
 ✔️ Java FX<br>
 ✔️ CSS<br>
 ✔️ MySQL<br>
+
+## Used Tools
+✔️ IntelliJ IDEA<br>
 ✔️ Scene Builder<br>
 
 ## Team Members
